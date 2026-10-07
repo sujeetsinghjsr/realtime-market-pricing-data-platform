@@ -1,0 +1,28 @@
+[
+  {
+    "instrument_id": "INS001",
+    "exchange": "EXCHANGE_A",
+    "currency": "USD",
+    "bid_price": 101.25,
+    "ask_price": 101.30,
+    "open_price": 100.90,
+    "high_price": 102.10,
+    "low_price": 100.50,
+    "close_price": 101.00,
+    "volume": 125000,
+    "event_timestamp": "2026-01-10T10:15:30.125Z"
+  },
+  {
+    "instrument_id": "INS002",
+    "exchange": "EXCHANGE_B",
+    "currency": "GBP",
+    "bid_price": 205.10,
+    "ask_price": 205.20,
+    "open_price": 204.80,
+    "high_price": 206.00,
+    "low_price": 204.10,
+    "close_price": 204.90,
+    "volume": 87500,
+    "event_timestamp": "2026-01-10T10:15:30.220Z"
+  }
+]

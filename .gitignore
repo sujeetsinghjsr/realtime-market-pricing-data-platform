@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+secrets/
+credentials/
+*.pem
+*.key
+*.pfx
+
+# Java
+target/
+*.class
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local test/cache
+.pytest_cache/
+.coverage

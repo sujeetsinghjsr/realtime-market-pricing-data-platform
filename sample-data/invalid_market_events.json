@@ -1,0 +1,16 @@
+[
+  {
+    "instrument_id": "INS003",
+    "exchange": "EXCHANGE_A",
+    "currency": "USD",
+    "bid_price": 101.50,
+    "ask_price": 101.20,
+    "open_price": 100.90,
+    "high_price": 102.10,
+    "low_price": 100.50,
+    "close_price": 101.00,
+    "volume": 125000,
+    "event_timestamp": "2026-01-10T10:15:30.125Z",
+    "validation_issue": "bid_price_greater_than_ask_price"
+  }
+]

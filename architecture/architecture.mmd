@@ -1,0 +1,11 @@
+flowchart LR
+    A[28 External Stock Exchange Feeds] --> B[Java Real-Time Feed Application]
+    B --> C[Apache Kafka]
+    C --> D[Python Transformation & Normalization]
+    D --> E[Data Quality Validation]
+    E -->|Valid| F[Redis - Current Pricing]
+    E -->|Valid / Persist| G[Oracle]
+    E -->|Invalid / Suspicious| H[Exception & Investigation]
+    F --> I[Banking Clients / Downstream Applications]
+    G --> J[Reference / Operational Data]
+    E --> K[Monitoring & Data Quality Metrics]
